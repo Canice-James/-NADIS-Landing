@@ -1,7 +1,7 @@
 var map;
 
 function initMap() {
-    var myLatlng = new google.maps.LatLng(47.609309, -122.333888);
+    var myLatlng = new google.maps.LatLng(17.1370631, -61.775092);
     var mapOptions = {
         zoom: 16,
         scrollwheel: false,
@@ -17,8 +17,8 @@ function initMap() {
         title: 'Hello World!'
     });
 
-    var contentString = '<div class="info-window-content"><h2>Webpixels</h2>' +
-        '<h3>Premium Themes · UI/UX · Web Apps</h3>' +
+    var contentString = '<div class="info-window-content"><h2>NADIS</h2>' +
+        '<h3>AOT Alerts · Environmental Consulting · Emergency Disptach</h3>' +
         '<p>Some more details for directions or company informations...</p></div>';
 
     var infowindow = new google.maps.InfoWindow({
